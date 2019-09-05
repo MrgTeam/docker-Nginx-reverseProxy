@@ -1,5 +1,7 @@
 # Nginx reverse proxy / PHP app / ASP.Net core app
 
+![Screenshot](reverseProxy.png)
+
 ## Description
 
 Here the way to use Nginx as a reverse proxy with an PHP application and an ASP.Net core application. 
