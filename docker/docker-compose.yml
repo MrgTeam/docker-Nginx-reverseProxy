@@ -2,6 +2,7 @@ version: '3'
 
 services:
     nginx:
+            container_name: nginx
             build:
                 context: ./nginx
             volumes:
@@ -13,8 +14,15 @@ services:
                 - "80:80"
                 - "443:443"
     aspnetapp:
+            container_name: aspnetapp
             build:
                 context: ./aspNetCore
                 dockerfile: Dockerfile
+            expose:
+                - "80"
+    php:
+            container_name: php
+            build:
+                context: ./php
             expose:
                 - "80"
