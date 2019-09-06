@@ -18,6 +18,7 @@ Here the way to use Nginx as a reverse proxy with an PHP application and an ASP.
 3. Run the following command
 
 ```
+docker-compose build
 docker-compose up
 ```
 
